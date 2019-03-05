@@ -526,14 +526,14 @@ img {
 
 /* Slide Background Image */
 #slider .slide1 {
-    background-image: url(../img/slider/01.jpg);
+    background-image: url(../img/slider/02.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #slider .slide2 {
-    background-image: url(../img/slider/02.jpg);
+    background-image: url(../img/slider/01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -813,7 +813,7 @@ img {
 *                                   08. Fun facts area css
 * --------------------------------------------------------------------------------------- */
 .fun-facts-area{
-    background-image: url(../img/bg/fun-bg.jpg);
+    background-image: url(../img/slider/02.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

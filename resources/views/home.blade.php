@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"       content="width=device-width, initial-scale=1.0">
     <meta name="description"    content="Tagro Bu">
-    <meta name="keywords"       content="tagro, responsive, multipurpose, onepage, corporate, clean">
+    <meta name="keywords"       content="tagro, plastic, company, factory, import, business">
     <meta name="author"         content="Ambidextrousbd">
 
     <!-- Site title -->
     <title>Tagro</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('imgs/apple-touch-icon-60x60.png') }}">
 
     <!-- Bootstrap css -->
     <link href="{{ asset('assets/css/bootstrap.min.css' ) }}" rel="stylesheet">
@@ -79,8 +79,8 @@
         </div>   
          
             <div class="tsocial">
-                <a href="https://twitter.com/TagroEgypt" target="_blank"><i class="fa fa-twitter"></i></a>
                 <a href="https://facebook.com/TagroCompany/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/TagroEgypt" target="_blank"><i class="fa fa-twitter"></i></a>
                 <a href="https://plus.google.com/u/0/109642517085020313026/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
             </div>
         </div>
@@ -98,7 +98,7 @@
                     <div class="mainmenu">
                         <div class="navbar navbar-nobg">
                             <div class="navbar-header">
-                                <a class="navbar-brand" href="{{ url('/') }}"><img src="assets/img/logo.png" alt=""></a>
+                                <a class="navbar-brand" title="Tagro" href="{{ url('/') }}"><img src="{{ asset('imgs/grey-logo.png') }}" alt=""></a>
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
@@ -113,9 +113,9 @@
                                         <li class="active"><a class="smooth_scroll" href="#slider">HOME</a></li>
                                         <li><a class="smooth_scroll" href="#about">ABOUT</a></li>
                                         <li><a class="smooth_scroll" href="#service">WHY TAGRO</a></li>
-                                        <li><a class="smooth_scroll" href="#work">PORTFOLIO</a></li>
+                                        <li><a class="smooth_scroll" href="#work">PRODUCTS</a></li>
                                         <li><a class="smooth_scroll" href="#team">TEAM</a></li>
-                                        <li><a class="smooth_scroll" href="#news">NEWS</a></li>
+                                        <li><a class="smooth_scroll" href="#news">QUALITY</a></li>
                                         <li><a class="smooth_scroll" href="#contact">CONTACT</a></li>
                                     </ul>
                                 </nav>
@@ -143,12 +143,12 @@
                     <div class="table">
                         <div class="table-cell">
                             <div class="intro-text">
-                                <img src="assets/img/big-logo.png" alt="">
+                                <img src="{{ asset('imgs/logo.png') }}" alt="">
                                 <div class="title clearfix">
-                                    <h2>Need to grow <br> your business</h2>
-                                    <h1>First</h1>
+                                    <h2>Aim for <br>the best &nbsp</h2>
+                                    <h1> Quality</h1>
                                 </div>
-                                <a href="#" class="btn btn-trnsp btn-big">PURCHASE NOW</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -159,12 +159,12 @@
                     <div class="table">
                         <div class="table-cell">
                             <div class="intro-text">
-                                <img src="assets/img/big-logo.png" alt="">
+                                <img src="{{ asset('imgs/logo.png') }}" alt="">
                                 <div class="title clearfix">
-                                    <h2>Need to grow <br> your business</h2>
-                                    <h1>First</h1>
+                                    <h2>Every Person <br> is a value to</h2>
+                                    <h1>Us</h1>
                                 </div>
-                                <a href="#" class="btn btn-trnsp btn-big">PURCHASE NOW</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -175,12 +175,12 @@
                     <div class="table">
                         <div class="table-cell">
                             <div class="intro-text">
-                                <img src="assets/img/big-logo.png" alt="">
+                                <img src="{{ asset('imgs/logo.png') }}" alt="">
                                 <div class="title clearfix">
-                                    <h2>Need to grow <br> your business</h2>
-                                    <h1>First</h1>
+                                    <h2>Our Success &nbsp<br> is based on </h2>
+                                    <h1>Trust</h1>
                                 </div>
-                                <a href="#" class="btn btn-trnsp btn-big">PURCHASE NOW</a>
+                               
                             </div>
                         </div>
                     </div>
@@ -321,8 +321,12 @@ Dedicated to supply products of the highest quality after having the approval of
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="section-title">
-                        <h2>Our Great <span>Works</span></h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <h2>A Collection of our <span>Products</span></h2>
+                        <p>TAGRO PP-R pipes and fittings are manufactured from high quality, Polpropylene Random Co-polymer resins (PP-RType 3). 
+                        Its phiysical and chemical properties make TAGRO a versatile piping system in a wide range of applica- tions in different industries. 
+                        Its advantages over PP types 1 or 2 and other thermoplastic pipes in the potable water indus- tries are its high impact strength and 
+                        resistance to high temperatures.</p>
+                <a class="btn" target="_blank" href="{{ asset('assets/catalogue/Catalog.pdf') }}" >Check Our Full Catalogue</a>
                     </div>
                 </div>
             </div>
@@ -331,11 +335,11 @@ Dedicated to supply products of the highest quality after having the approval of
 
                 <!-- Works filter -->
                 <ul class="work filters">
-                    <li class="filter" data-filter="all">All</li>
-                    <li class="filter" data-filter=".web">Webdesign</li>
-                    <li class="filter" data-filter=".dev">Development</li>
-                    <li class="filter" data-filter=".brand">Branding</li>
-                    <li class="filter" data-filter=".illustrate">Illustration</li>
+                    <li class="filter" data-filter=".pipe">Pipes</li>
+                    <li class="filter" data-filter=".elbow">Elbows</li>
+                    <li class="filter" data-filter=".valve">Valves</li>
+                    <li class="filter" data-filter=".tpart">T-Parts</li>
+                    <li class="filter" data-filter=".adapter">Adapters</li>
                 </ul>
                 <!-- / Works filter -->
 
@@ -345,10 +349,23 @@ Dedicated to supply products of the highest quality after having the approval of
                 <div class="row work-items">
 
                     <!-- work item -->
-                    <div class="col-md-4 col-sm-6 mix illustrate web">
+                    <div class="col-md-4 col-sm-6 mix illustrate pipe">
                         <div class="item">
-                            <a href="assets/img/works/1.jpg" class="work-popup">
-                                <img src="assets/img/works/1.jpg" alt="">
+                            <a href="{{asset('assets/img/works/Pipe1.png')}}" class="work-popup">
+                                <img src="{{asset('assets/img/works/Pipe1.png')}}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix illustrate typography pipe">
+                        <div class="item">
+                            <a href="{{asset('assets/img/works/Pipe2.png')}}" class="work-popup">
+                                <img src="{{asset('assets/img/works/Pipe2.png')}}" alt="">
                                 <div class="overlay">
                                     <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                 </div>
@@ -357,10 +374,23 @@ Dedicated to supply products of the highest quality after having the approval of
                     </div>
 
                     <!-- work item -->
-                    <div class="col-md-4 col-sm-6 mix dev">
+                    <div class="col-md-4 col-sm-6 mix  pipe">
                         <div class="item">
-                            <a href="assets/img/works/2.jpg" class="work-popup">
-                                <img src="assets/img/works/2.jpg" alt="">
+                            <a href="{{asset('assets/img/works/Pipe3.png')}}" class="work-popup">
+                                <img src="{{asset('assets/img/works/Pipe3.png')}}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix valve">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/Valve1.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/Valve1.png') }}" alt="">
                                 <div class="overlay">
                                     <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                 </div>
@@ -369,10 +399,10 @@ Dedicated to supply products of the highest quality after having the approval of
                     </div>
 
                     <!-- work item -->
-                    <div class="col-md-4 col-sm-6 mix illustrate typography web">
+                    <div class="col-md-4 col-sm-6 mix valve brand">
                         <div class="item">
-                            <a href="assets/img/works/3.jpg" class="work-popup">
-                                <img src="assets/img/works/3.jpg" alt="">
+                            <a href="{{ asset('assets/img/works/Valve2.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/Valve2.png') }}" alt="">
                                 <div class="overlay">
                                     <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                 </div>
@@ -381,10 +411,10 @@ Dedicated to supply products of the highest quality after having the approval of
                     </div>
 
                     <!-- work item -->
-                    <div class="col-md-4 col-sm-6 mix web dev brand">
+                    <div class="col-md-4 col-sm-6 mix valve illustrate">
                         <div class="item">
-                            <a href="assets/img/works/4.jpg" class="work-popup">
-                                <img src="assets/img/works/4.jpg" alt="">
+                            <a href="{{ asset('assets/img/works/Valve3.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/Valve3.png') }}" alt="">
                                 <div class="overlay">
                                     <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                 </div>
@@ -393,10 +423,10 @@ Dedicated to supply products of the highest quality after having the approval of
                     </div>
 
                     <!-- work item -->
-                    <div class="col-md-4 col-sm-6 mix web illustrate">
+                    <div class="col-md-4 col-sm-6 mix elbow">
                         <div class="item">
-                            <a href="assets/img/works/5.jpg" class="work-popup">
-                                <img src="assets/img/works/5.jpg" alt="">
+                            <a href="{{asset('assets/img/works/Elbow1.png')}}" class="work-popup">
+                                <img src="{{asset('assets/img/works/Elbow1.png')}}" alt="">
                                 <div class="overlay">
                                     <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                 </div>
@@ -405,10 +435,57 @@ Dedicated to supply products of the highest quality after having the approval of
                     </div>
 
                     <!-- work item -->
-                    <div class="col-md-4 col-sm-6 mix dev brand">
+                    <div class="col-md-4 col-sm-6 mix elbow illustrate">
                         <div class="item">
-                            <a href="assets/img/works/6.jpg" class="work-popup">
-                                <img src="assets/img/works/6.jpg" alt="">
+                            <a href="assets/img/works/Elbow2.png" class="work-popup">
+                                <img src="assets/img/works/Elbow2.png" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix tpart">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/T-Part1.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/T-Part1.png') }}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix tpart">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/T-Part2.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/T-Part2.png') }}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix adapter">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/Adapter1.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/Adapter1.png') }}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix adapter">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/Adapter2.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/Adapter2.png') }}" alt="">
                                 <div class="overlay">
                                     <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                 </div>
@@ -431,137 +508,72 @@ Dedicated to supply products of the highest quality after having the approval of
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="section-title">
-                        <h2>CLEVER TEAM <span>MEMBERS</span></h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <h2>Meet the Team behind <span>Tagro</span></h2>
+                        <p>Dedicated to the Highest Quality</p>
                     </div>
                 </div>
             </div>
 
             <div class="row">
 
-                <div class="col-md-3 col-sm-6">
+
+                <div class="col-md-4 col-sm-6">
                     <div class="team-member">
                         <div class="member-image">
-                            <img src="assets/img/team/member-1.png" alt="">
+                            <img src="assets/img/team/mm.png" alt="">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">Neil Volungis</h3>
-                            <p class="text-muted">Co Founder</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h3 class="subtitle">Amgad [Second Name]</h3>
+                            <p class="text-muted">Marketing Manager</p>
+                           
                         </div>
                         <div class="member-hover">
-                            <h3 class="subtitle">Neil Volungis</h3>
-                            <p class="text-muted">Co Founder</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h3 class="subtitle">Amgad [Second Name]</h3>
+                            <p class="text-muted">Marketing Manager</p>
+                          
                             <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="team-member">
                         <div class="member-image">
-                            <img src="assets/img/team/member-2.png" alt="">
+                            <img src="assets/img/team/ceo.png" alt="">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">ARON THOMAS</h3>
-                            <p class="text-muted">Managing Director</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h3 class="subtitle">Rezk Allah [Second Name]</h3>
+                            <p class="text-muted">Tagro CEO</p>
+                          
                         </div>
                         <div class="member-hover">
-                            <h3 class="subtitle">ARON THOMAS</h3>
-                            <p class="text-muted">Managing Director</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h3 class="subtitle">Chemist Rezk Allah</h3>
+                            <p class="text-muted">Tagro CEO</p>
+                         
+                            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="assets/img/team/csm.png" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="subtitle">Harby [Second Name]</h3>
+                            <p class="text-muted">Customer Support Manager</p>
+                         
+                        </div>
+                        <div class="member-hover">
+                            <h3 class="subtitle">Harby [Second Name]</h3>
+                            <p class="text-muted">Custome Support Manager</p>
+                          
                             <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member">
-                        <div class="member-image">
-                            <img src="assets/img/team/member-3.png" alt="">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="subtitle">CAROL ANDERSON</h3>
-                            <p class="text-muted">Designer</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-hover">
-                            <h3 class="subtitle">CAROL ANDERSON</h3>
-                            <p class="text-muted">Designer</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member">
-                        <div class="member-image">
-                            <img src="assets/img/team/member-4.png" alt="">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="subtitle">Kristen Craft </h3>
-                            <p class="text-muted">Markater</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-hover">
-                            <h3 class="subtitle">Kristen Craft </h3>
-                            <p class="text-muted">Markater</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -606,146 +618,10 @@ Dedicated to supply products of the highest quality after having the approval of
     <!-- fun-facts area ends -->
 
 
-    <!-- Price area starts -->
-    <section id="pricing" class="pricing-area section-big">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center">
-                        <h2>Pricing <span>Plans</span></h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <!-- Pricing Table -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="price-item" data-connectors="1">
-                        <div class="info">
-                            <p class="level">Basic</p>
-                            <p class="price">
-                                <span class="number">$ 99</span>
-                                <span>/ mon</span>
-                            </p>
-                        </div>
-                        <div class="features">
-                            <ul>
-                                <li>1x option 1</li>
-                                <li>Free option 2</li>
-                                <li>Unlimited option 3</li>
-                                <li>Unlimited Option 4</li>
-                                <li>1x option 5</li>
-                            </ul>
-                        </div>
-                       <a class="btn" href="#">Order Now</a>
-                    </div>
-                </div>
-
-                <!-- Pricing Table -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="price-item featured" data-connectors="1">
-                        <div class="info">
-                            <p class="level">Premium Plus</p>
-                            <p class="price">
-                                <span class="number">$ 299</span>
-                                <span>/ mon</span>
-                            </p>
-                        </div>
-                        <div class="features">
-                            <ul>
-                                <li>1x option 1</li>
-                                <li>Free option 2</li>
-                                <li>Unlimited option 3</li>
-                                <li>Unlimited Option 4</li>
-                                <li>1x option 5</li>
-                            </ul>
-                        </div>
-                       <a class="btn" href="#">Order Now</a>
-                    </div>
-                </div>
-
-                <!-- Pricing Table -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="price-item" data-connectors="1">
-                        <div class="info">
-                            <p class="level">Premium</p>
-                            <p class="price">
-                                <span class="number">$ 199</span>
-                                <span>/ mon</span>
-                            </p>
-                        </div>
-                        <div class="features">
-                            <ul>
-                                <li>1x option 1</li>
-                                <li>Free option 2</li>
-                                <li>Unlimited option 3</li>
-                                <li>Unlimited Option 4</li>
-                                <li>1x option 5</li>
-                            </ul>
-                        </div>
-                       <a class="btn" href="#">Order Now</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Price area ends -->
+         
 
 
-    <!-- Testimonial area starts -->
-    <section id="testimonial" class="testimonial-area section-big">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-title">
-                        <h2>Client <span>Testimonial</span></h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="testimonial-list">
-
-                    <!-- Testimonial item -->
-                    <div class="single-testimonial">
-                        <img src="assets/img/testimonial/1.jpg" alt="">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Locavore pork belly scenester, pinterest chillwave microdosing waistcoat pop-up. Flexitarian +1 cliche artisan, biodiesel mixtape tacos art party mustache cardigan kitsch squid disrupt. Truffaut deep v kitsch salvia sriracha. </p>
-                        <h4>John Doe</h4>
-                        <p class="desg">Founder of Ambidextrousbd</p>
-                    </div>
-
-                    <!-- Testimonial item -->
-                    <div class="single-testimonial">
-                        <img src="assets/img/testimonial/2.jpg" alt="">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod tempor sunt aliqua put.</p>
-                        <h4>John doe</h4>
-                        <p class="desg">Designer in Dess</p>
-                    </div>
-
-                    <!-- Testimonial item -->
-                    <div class="single-testimonial">
-                        <img src="assets/img/testimonial/3.jpg" alt="">
-                        <i class="fa fa-quote-left"></i>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <h4>John doe</h4>
-                        <p class="desg">Founder of Ambi</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- Testimonial area ends -->
-
+    
 
     <!-- News area starts -->
     <section id="news" class="news-area section-big">
@@ -754,8 +630,9 @@ Dedicated to supply products of the highest quality after having the approval of
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>Our Latest News</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <h2>Keeping Our <span>Quality</span></h2>
+                        <p>TAGRO pipes and fittings are periodically subjected to the following 
+                        extensive test program according to the standards</p>
                     </div>
                 </div>
             </div>
@@ -763,70 +640,124 @@ Dedicated to supply products of the highest quality after having the approval of
             <div class="row">
 
                 <!-- News item 1 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6" style="margin-top: 10px">
                     <div class="single-news">
                         <div class="news-image">
                             <a href="#news-modal-1" data-toggle="modal">
-                                <img src="assets/img/news/1.png" alt="" >
+                                <img src="{{asset('assets/img/quality/Mat_char.jpg')}}" height=300px  alt="" >
                             </a>
                         </div>
                         <div class="news-content">
                             <a href="#news-modal-1" data-toggle="modal">
-                                <h3 class="subtitle">Light without hath She'd winged</h3>
+                                <h3 class="subtitle">Material Characterization Tests</h3>
                             </a>
-                            <p class="news-meta text-muted">
-                                <span><i class="fa fa-calendar"></i> 02 Nov 2017 </span>
-                                <span><i class="fa fa-user"></i> Admin</span>
-                                <span><i class="fa fa-comments-o"></i> 200</span>
+                         
+                            <p>
+                            Testing the incoming resin is the first step in the quality control program. 
+                            
                             </p>
-                            <p>Light without hath She'd winged Earth forth signs sixth void great together gathering, had creeping. Firmament whales which greater two wherein likeness light behold light that was.</p>
                             <a class="btn" href="#news-modal-1" data-toggle="modal">Read More</a>
+                            
                         </div>
                     </div>
                 </div>
 
                 <!-- News item 2 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6" style="margin-top: 10px">
                     <div class="single-news">
                         <div class="news-image">
                             <a href="#news-modal-2" data-toggle="modal">
-                                <img src="assets/img/news/2.png" alt="" >
+                                <img src="{{asset('assets/img/quality/Thermal_Reservation.jpg')}}" height=300px alt="" >
                             </a>
                         </div>
                         <div class="news-content">
                             <a href="#news-modal-2" data-toggle="modal">
-                                <h3 class="subtitle">Firmament whales which have</h3>
+                                <h3 class="subtitle">Thermal Reversion Properties</h3>
                             </a>
-                            <p class="news-meta text-muted">
-                                <span><i class="fa fa-calendar"></i> 02 Nov 2017 </span>
-                                <span><i class="fa fa-user"></i> Admin</span>
-                                <span><i class="fa fa-comments-o"></i> 200</span>
-                            </p>
-                            <p>Light without hath She'd winged Earth forth signs sixth void great together gathering, had creeping. Firmament whales which greater two wherein likeness light behold light that was.</p>
+                         
+                            <p>Thermal properties of plastic materials are equally important as mechanical properties. 
+                             </p>
                             <a class="btn" href="#news-modal-2" data-toggle="modal">Read More</a>
+                            
+                            
                         </div>
                     </div>
                 </div>
 
                 <!-- News item 3 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 " style="margin-top: 10px" >
                     <div class="single-news">
                         <div class="news-image">
                             <a href="#news-modal-3" data-toggle="modal">
-                                <img src="assets/img/news/3.png" alt="" >
+                                <img src="{{asset('assets/img/quality/Spectro.jpg')}}" height=300px alt="" >
                             </a>
                         </div>
                         <div class="news-content">
                             <a href="#news-modal-3" data-toggle="modal">
-                                <h3 class="subtitle">Winged Earth forth signs void</h3>
+                                <h3 class="subtitle">Color Measurement Test with Spectro</h3>
                             </a>
-                            <p class="news-meta text-muted">
-                                <span><i class="fa fa-calendar"></i> 02 Nov 2017 </span>
-                                <span><i class="fa fa-user"></i> Admin</span>
-                                <span><i class="fa fa-comments-o"></i> 200</span>
-                            </p>
-                            <p>Light without hath She'd winged Earth forth signs sixth void great together gathering, had creeping. Firmament whales which greater two wherein likeness light behold light that was.</p>
+                         
+                            <p>This new color language lets you compare a measured color to a pre-established specification.</p>
                             <a class="btn" href="#news-modal-3" data-toggle="modal">Read More</a>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News item 4 -->
+                <div class="col-md-4 col-sm-6" style="margin-top: 10px">
+                    <div class="single-news">
+                        <div class="news-image">
+                            <a href="#news-modal-4" data-toggle="modal">
+                                <img src="{{asset('assets/img/quality/DimentionTest.png')}}" height=300px alt="" >
+                            </a>
+                        </div>
+                        <div class="news-content">
+                            <a href="#news-modal-5" data-toggle="modal">
+                                <h3 class="subtitle">Dimensional Tests</h3>
+                            </a>
+                         
+                            <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements.</p>
+                            <a class="btn" href="#news-modal-4" data-toggle="modal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News item 5 -->
+                <div class="col-md-4 col-sm-6" style="margin-top: 10px">
+                    <div class="single-news">
+                        <div class="news-image">
+                            <a href="#news-modal-5" data-toggle="modal">
+                                <img src="{{asset('assets/img/quality/creep-testing.jpg')}}" height=300px alt="" >
+                            </a>
+                        </div>
+                        <div class="news-content">
+                            <a href="#news-modal-5" data-toggle="modal">
+                                <h3 class="subtitle">Creep Strength Test</h3>
+                            </a>
+                         
+                            <p>TAGRO Pipes are subjected to creep tests according to DIN 8078 that determins service life and that provides the required information about the mechanical characteristics of the pipe.</p>
+                            <a class="btn" href="#news-modal-5" data-toggle="modal">Read More</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News item 6 -->
+                <div class="col-md-4 col-sm-6" style="margin-top: 10px">
+                    <div class="single-news">
+                        <div class="news-image">
+                            <a href="#news-modal-6" data-toggle="modal">
+                                <img src="{{asset('assets/img/quality/impact-strength.png')}}" height=300px alt="" >
+                            </a>
+                        </div>
+                        <div class="news-content">
+                            <a href="#news-modal-3" data-toggle="modal">
+                                <h3 class="subtitle">Impact Strength</h3>
+                            </a>
+                         
+                            <p>Impact resistance is the ability of a material to resist breaking under a shock loading. Standard test specimens prepared from TAGRO pipes are subjected to a pendulum type impact type load in accordance with DIN 8078 and EN ISO 15874.</p>
+                            <a class="btn" href="#news-modal-6" data-toggle="modal">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -849,19 +780,15 @@ Dedicated to supply products of the highest quality after having the approval of
                             <div class="col-lg-8 col-lg-offset-2">
                                 <div class="modal-body">
 
-                                    <img src="assets/img/news/1.png" alt="" >
+                                    <img src="{{asset('assets/img/quality/Mat_char.jpg')}}" alt="" >
 
-                                    <p class="news-meta text-muted">
-                                        <span><i class="fa fa-calendar"></i> 02 Nov 2017 </span>
-                                        <span><i class="fa fa-user"></i> Admin</span>
-                                        <span><i class="fa fa-comments-o"></i> 200</span>
-                                    </p>
+                             
 
-                                    <h2>Last night we released our latest product</h2>
+                                    <h2>Material Characterization Test</h2>
 
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
-
-                                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand.</p>
+                                    <p> Testing the incoming resin is the first step in the quality control program. 
+                            It is usually checked for contamination, melt index, density, 
+                            DSC and 0IT Any resin that does not meet the raw material specifications is not used for the production.</p>
 
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -886,19 +813,18 @@ Dedicated to supply products of the highest quality after having the approval of
                             <div class="col-lg-8 col-lg-offset-2">
                                 <div class="modal-body">
 
-                                    <img src="assets/img/news/2.png" alt="" >
+                                    <img src="{{asset('assets/img/quality/Thermal_Reservation.jpg')}}" alt="" >
 
-                                    <p class="news-meta text-muted">
-                                        <span><i class="fa fa-calendar"></i> 02 Nov 2017 </span>
-                                        <span><i class="fa fa-user"></i> Admin</span>
-                                        <span><i class="fa fa-comments-o"></i> 200</span>
-                                    </p>
+                                 
 
-                                    <h2>Last night we released our latest product</h2>
+                                    <h2>Thermal Reversion Properties</h2>
 
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
-
-                                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand.</p>
+                                    <p>Thermal properties of plastic materials are equa lly important as mechanical 
+                                    properties. Unlike metals, plastics are extremely sensitive to changes in temperature. 
+                                    This difference in the coefficient of thermal expansion develops internal stresses and 
+                                    stres concentrations in the polymer. 
+                                    Pipes are subjected to thermal stresses inside a thermostatic chamber with a continuous 
+                                    air circulation to observe shrinkage in accordance with DIN 8078, EN ISO 15874.</p>
 
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -923,20 +849,105 @@ Dedicated to supply products of the highest quality after having the approval of
                             <div class="col-lg-8 col-lg-offset-2">
                                 <div class="modal-body">
 
-                                    <img src="assets/img/news/3.png" alt="" >
+                                    <img src="{{asset('assets/img/quality/Spectro.jpg')}}" alt="" >
 
-                                    <p class="news-meta text-muted">
-                                        <span><i class="fa fa-calendar"></i> 02 Nov 2017 </span>
-                                        <span><i class="fa fa-user"></i> Admin</span>
-                                        <span><i class="fa fa-comments-o"></i> 200</span>
-                                    </p>
+                                    <h2>Dimensional Tests</h2>
 
-                                    <h2>Last night we released our latest product</h2>
+                                    <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements. 
+                                    The outside diameter wall thickness shall comply with the DIN 8077 and EN ISO 15874 specif ications.</p>
 
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
+                                
 
-                                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand.</p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- New4 Modal -->
+            <div class="news-modal modal fade" id="news-modal-4" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+
+                                    <img src="{{asset('assets/img/quality/DimentionTest.png')}}" alt="" >
+
+                                    <h2>Color Measurement Test with Spectro</h2>
+
+                                    <p>Color language. This new language lets you compare a measured color to a pre-established specification. 
+                                    And that enables you to control the color maintain it within acceptable tolerances at every step in your production process or supply chain. </p>
+
+                                
+
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New5 Modal -->
+            <div class="news-modal modal fade" id="news-modal-5" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+
+                                    <img src="{{asset('assets/img/quality/creep-testing.jpg')}}" alt="" >
+
+                                    <h2>Creep Strength Test (Short Term)</h2>
+
+                                    <p>TAGRO Pipes are subjected to creep tests according to DIN 8078 that determins service life and that provides the required information about the mechanical characteristics of the pipe. The long-term burst strength of pipes is determined by subjecting the pipes to constant internal pressure and observing time to failure. </p>
+
+                                
+
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New6 Modal -->
+            <div class="news-modal modal fade" id="news-modal-6" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+
+                                    <img src="{{asset('assets/img/quality/impact-strength.png')}}" alt="" >
+
+                                    <h2>Impact Strength</h2>
+
+                                    <p>Impact resistance is the ability of a material to resist breaking under a shock loading. Standard test specimens prepared from TAGRO pipes are subjected to a pendulum type impact type load in accordance with DIN 8078 and EN ISO 15874. </p>
+
+                                
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
@@ -950,22 +961,6 @@ Dedicated to supply products of the highest quality after having the approval of
         </div>
     </section>
     <!-- News area ends -->
-
-
-    <!-- Video area starts -->
-    <div id="video" class="video-area section-big">
-        <div class="container text-center">
-
-            <div class="video-content">
-                <a class="popup-youtube" href="http://www.youtube.com/watch?v=xtZE3sMv6lg">
-                    <i class="fa fa-play"></i>
-                </a>
-                <h2>Watch This Video</h2>
-            </div>
-
-        </div>
-    </div>
-    <!-- Video area ends -->
 
 
     <!-- Client area starts -->
@@ -1011,11 +1006,6 @@ Dedicated to supply products of the highest quality after having the approval of
 
                 <!-- item 6 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/6.png" alt="">
-                </div>
-
-                <!-- item 7 -->
-                <div class="item text-center">
                     <img src="assets/img/clients/7.png" alt="">
                 </div>
 
@@ -1027,47 +1017,7 @@ Dedicated to supply products of the highest quality after having the approval of
     <!-- Client area ends -->
 
 
-    <!-- Subscribe area starts -->
-    <div id="subscribe" class="subscribe-area section-big">
-        <div class="container">
-            <div class="subscribe-box">
-
-                <div class="row">
-                    
-                    <div class="col-md-6">
-                        <h2>SING UP FOR <span>NEWSLETTER</span></h2>
-                        <p>We'll send email notifications everytime we release new Theme.</p>                        
-                    </div>
-
-                    <div class="col-md-6">
-                        <form id="mc-form" class="mc-form">
-                            <div class="newsletter-form">
-
-                                <input type="email" autocomplete="off" id="mc-email" placeholder="Email address" class="form-control">
-
-                                <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button>                                
-
-                                <div class="clearfix"></div>
-
-                                <!-- mailchimp-alerts Start -->
-                                <div class="mailchimp-alerts">
-                                    <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                    <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                                    <div class="mailchimp-error"></div><!-- mailchimp-error end -->
-                                </div>
-                                <!-- mailchimp-alerts end -->
-
-
-                            </div>
-                        </form>    
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Subscribe area ends -->
-
+    
 
     <!-- Contact area starts -->
     <section id="contact" class="contact-area section-big">
@@ -1078,7 +1028,7 @@ Dedicated to supply products of the highest quality after having the approval of
                     <div class="section-title">
                         <h2>GET IN <span>TOUCH</span></h2>
                         <p>
-                            Morbi accumsan ipsum velit sodales tellus odio tincidunt auctor ornare sed mauris vitae erat consequat auctor eu in elit class.
+                            Need to find out how can we help you? Let's talk
                         </p>
                     </div>
                 </div>
@@ -1118,7 +1068,10 @@ Dedicated to supply products of the highest quality after having the approval of
 
 
     <!-- Google Map starts-->
-    <div id="contactgoogleMap"></div>
+    <div ></div>
+
+
+    <iframe id="contactgoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.48485248460446!2d31.340671847974413!3d30.07634100987697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f80c0dc1cf3%3A0x4c89a75d157e1733!2sTagro+Co.!5e0!3m2!1sen!2seg!4v1551618921871" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     <!-- Google Map ends -->
 
 
@@ -1126,22 +1079,20 @@ Dedicated to supply products of the highest quality after having the approval of
     <!-- Footer area starts -->
     <footer class="footer-area">
         <div class="container text-center">
-            <img src="assets/img/big-logo.png" alt="">
-            <p>Locavore pork belly scenester, pinterest chillwave microdosing waistcoat pop-up. Flexitarian +1 cliche artisan, biodiesel mixtape tacos art party mustache cardigan kitsch squid disrupt.</p>
+            <img src="{{ asset('imgs/logo.png') }}" alt="">
+            <p>Let us be your next partner</p>
             <ul class="social-links">
-                <li><a href=""><i class="fa fa-rss"></i></a></li>
-                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="https://facebook.com/TagroCompany/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/TagroEgypt"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/109642517085020313026/posts"><i class="fa fa-google-plus"></i></a></li>
+         
             </ul>
         </div>
     </footer>
     <!-- Footer area ends -->
 
     <div class="copyright-text text-center">
-        <p>&copy; 2016 Copyright Ambidextrousbd</p>
+        <p>&copy; 2019 Tagro, Copyrights Reserved</p>
     </div>
 
 
