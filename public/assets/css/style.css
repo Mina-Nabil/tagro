@@ -789,7 +789,7 @@ img {
 
 .team-member:hover .member-hover {
     opacity: 1;
-    height: 100%;
+    height: 40%;
 }
 
 .member-hover h3,
