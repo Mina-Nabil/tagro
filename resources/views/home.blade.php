@@ -335,6 +335,7 @@ Dedicated to supply products of the highest quality after having the approval of
 
                 <!-- Works filter -->
                 <ul class="work filters">
+                    <li class="filter" data-filter="all">All</li>
                     <li class="filter" data-filter=".pipe">Pipes</li>
                     <li class="filter" data-filter=".elbow">Elbows</li>
                     <li class="filter" data-filter=".valve">Valves</li>
@@ -520,7 +521,7 @@ Dedicated to supply products of the highest quality after having the approval of
                 <div class="col-md-4 col-sm-6">
                     <div class="team-member">
                         <div class="member-image">
-                            <img src="assets/img/team/mm.png" alt="">
+                            <img src="{{ asset('assets/img/team/mm.png') }}" alt="">
                         </div>
                         <div class="member-info">
                             <h3 class="subtitle">Amgad [Second Name]</h3>
@@ -539,7 +540,7 @@ Dedicated to supply products of the highest quality after having the approval of
                 <div class="col-md-4 col-sm-6">
                     <div class="team-member">
                         <div class="member-image">
-                            <img src="assets/img/team/ceo.png" alt="">
+                            <img src="{{ asset('assets/img/team/ceo.png') }}" alt="">
                         </div>
                         <div class="member-info">
                             <h3 class="subtitle">Rezk Allah [Second Name]</h3>
@@ -554,10 +555,10 @@ Dedicated to supply products of the highest quality after having the approval of
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div clas  s="col-md-4 col-sm-6">
                     <div class="team-member">
                         <div class="member-image">
-                            <img src="assets/img/team/csm.png" alt="">
+                            <img src="{{ asset('assets/img/team/csm.png') }}" alt="">
                         </div>
                         <div class="member-info">
                             <h3 class="subtitle">Harby [Second Name]</h3>
@@ -981,32 +982,32 @@ Dedicated to supply products of the highest quality after having the approval of
 
                 <!-- item 1 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/1.png" alt="">
+                    <img src="{{ asset('assets/img/clients/1.png') }}" alt="">
                 </div>
 
                 <!-- item 2 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/2.png" alt="">
+                    <img src="{{ asset('assets/img/clients/2.png') }}" alt="">
                 </div>
 
                 <!-- item 3 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/3.png" alt="">
+                    <img src="{{ asset('assets/img/clients/3.png') }}" alt="">
                 </div>
 
                 <!-- item 4 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/4.png" alt="">
+                    <img src="{{ asset('assets/img/clients/4.png') }}" alt="">
                 </div>
 
                 <!-- item 5 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/5.png" alt="">
+                    <img src="{{ asset('assets/img/clients/5.png') }}" alt="">
                 </div>
 
                 <!-- item 6 -->
                 <div class="item text-center">
-                    <img src="assets/img/clients/7.png" alt="">
+                    <img src="{{ asset('assets/img/clients/7.png') }}" alt="">
                 </div>
 
             </div>
@@ -1055,7 +1056,7 @@ Dedicated to supply products of the highest quality after having the approval of
                     <div class="contact-info">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <p>
-                            <a href="tel:0000" title="Click to Call">+2 02-24151218</a>
+                            <a href="tel:+20224151218" title="Click to Call">+2 02-24151218</a>
                             <br>
                             <a href="tel:0000" title="Click to Call">ADD ANOTHER NUMBER</a>
                         </p>
@@ -1068,9 +1069,6 @@ Dedicated to supply products of the highest quality after having the approval of
 
 
     <!-- Google Map starts-->
-    <div ></div>
-
-
     <iframe id="contactgoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.48485248460446!2d31.340671847974413!3d30.07634100987697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f80c0dc1cf3%3A0x4c89a75d157e1733!2sTagro+Co.!5e0!3m2!1sen!2seg!4v1551618921871" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     <!-- Google Map ends -->
 
