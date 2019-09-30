@@ -526,21 +526,21 @@ img {
 
 /* Slide Background Image */
 #slider .slide1 {
-    background-image: url(../img/slider/02.png);
+    background-image: url(../img/slider/03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #slider .slide2 {
-    background-image: url(../img/slider/01.png);
+    background-image: url(../img/slider/02.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #slider .slide3 {
-    background-image: url(../img/slider/03.jpg);
+    background-image: url(../img/slider/07.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

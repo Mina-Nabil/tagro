@@ -235,7 +235,7 @@ Dedicated to supply products of the highest quality after having the approval of
 
                 <!-- About Image -->
                 <div class="col-md-6 about-img">
-                    <img src="assets/img/about/about.png" alt="" >
+                    <img src="{{ asset('assets/img/slider/06.png')}}" alt="" >
                 </div>
 
                 <!-- About Text -->
@@ -341,6 +341,7 @@ Dedicated to supply products of the highest quality after having the approval of
                     <li class="filter" data-filter=".valve">Valves</li>
                     <li class="filter" data-filter=".tpart">T-Parts</li>
                     <li class="filter" data-filter=".adapter">Adapters</li>
+                    <li class="filter" data-filter=".upvc">UPVC</li>
                 </ul>
                 <!-- / Works filter -->
 
@@ -494,6 +495,46 @@ Dedicated to supply products of the highest quality after having the approval of
                         </div>
                     </div>
 
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix pipes upvc">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/upvc1.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/upvc1.png') }}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix elbow upvc">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/upvc2.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/upvc2.png') }}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- work item -->
+                    <div class="col-md-4 col-sm-6 mix tpart upvc">
+                        <div class="item">
+                            <a href="{{ asset('assets/img/works/upvc3.png') }}" class="work-popup">
+                                <img src="{{ asset('assets/img/works/upvc3.png') }}" alt="">
+                                <div class="overlay">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center m-t-20">
+                            <a class="btn" target="_blank" href="{{ asset('assets/catalogue/Catalog.pdf') }}" >Check Our Full Catalogue</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -524,15 +565,14 @@ Dedicated to supply products of the highest quality after having the approval of
                             <img src="{{ asset('assets/img/team/mm.png') }}" alt="">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">Amgad [Second Name]</h3>
+                            <h3 class="subtitle">Amgad Selim</h3>
                             <p class="text-muted">Marketing Manager</p>
                            
                         </div>
                         <div class="member-hover">
-                            <h3 class="subtitle">Amgad [Second Name]</h3>
+                            <h3 class="subtitle">Amgad Selim</h3>
                             <p class="text-muted">Marketing Manager</p>
                           
-                            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                         </div>
                     </div>
                 </div>
@@ -543,15 +583,14 @@ Dedicated to supply products of the highest quality after having the approval of
                             <img src="{{ asset('assets/img/team/ceo.png') }}" alt="">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">Rezk Allah [Second Name]</h3>
+                            <h3 class="subtitle">Rezk Allah Mikhael</h3>
                             <p class="text-muted">Tagro CEO</p>
                           
                         </div>
                         <div class="member-hover">
-                            <h3 class="subtitle">Chemist Rezk Allah</h3>
+                            <h3 class="subtitle">Rezk Allah Mikhael</h3>
                             <p class="text-muted">Tagro CEO</p>
                          
-                            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                         </div>
                     </div>
                 </div>
@@ -561,15 +600,14 @@ Dedicated to supply products of the highest quality after having the approval of
                             <img src="{{ asset('assets/img/team/csm.png') }}" alt="">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">Harby [Second Name]</h3>
+                            <h3 class="subtitle">Harby Saeed</h3>
                             <p class="text-muted">Customer Support Manager</p>
                          
                         </div>
                         <div class="member-hover">
-                            <h3 class="subtitle">Harby [Second Name]</h3>
+                            <h3 class="subtitle">Harby Saeed</h3>
                             <p class="text-muted">Custome Support Manager</p>
                           
-                            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                         </div>
                     </div>
                 </div>
@@ -690,15 +728,15 @@ Dedicated to supply products of the highest quality after having the approval of
                     <div class="single-news">
                         <div class="news-image">
                             <a href="#news-modal-3" data-toggle="modal">
-                                <img src="{{asset('assets/img/quality/Spectro.jpg')}}" height=300px alt="" >
+                                <img src="{{asset('assets/img/quality/thermo.jpg')}}" height=300px alt="" >
                             </a>
                         </div>
                         <div class="news-content">
                             <a href="#news-modal-3" data-toggle="modal">
-                                <h3 class="subtitle">Color Measurement Test with Spectro</h3>
+                                <h3 class="subtitle">Thermocycling Test</h3>
                             </a>
                          
-                            <p>This new color language lets you compare a measured color to a pre-established specification.</p>
+                            <p>Thermocycling Testing determines the ability of parts to resist extremely low and extremely high temperatures. as well as their ability to withstand cyclical exposures to these temperature extremes.</p>
                             <a class="btn" href="#news-modal-3" data-toggle="modal">Read More</a>
                           
                         </div>
@@ -850,12 +888,11 @@ Dedicated to supply products of the highest quality after having the approval of
                             <div class="col-lg-8 col-lg-offset-2">
                                 <div class="modal-body">
 
-                                    <img src="{{asset('assets/img/quality/Spectro.jpg')}}" alt="" >
+                                    <img src="{{asset('assets/img/quality/thermo.jpg')}}" alt="" >
 
-                                    <h2>Dimensional Tests</h2>
+                                    <h2>Thermocycling Testing</h2>
 
-                                    <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements. 
-                                    The outside diameter wall thickness shall comply with the DIN 8077 and EN ISO 15874 specif ications.</p>
+                                    <p>Thermocycling Testing determines the ability of parts to resist extremely low and extremely high temperatures. as well as their ability to withstand cyclical exposures to these temperature extremes. </p>
 
                                 
 
@@ -883,10 +920,10 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <img src="{{asset('assets/img/quality/DimentionTest.png')}}" alt="" >
 
-                                    <h2>Color Measurement Test with Spectro</h2>
+                                    <h2>Dimensional Tests</h2>
 
-                                    <p>Color language. This new language lets you compare a measured color to a pre-established specification. 
-                                    And that enables you to control the color maintain it within acceptable tolerances at every step in your production process or supply chain. </p>
+                                    <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements. 
+                                    The outside diameter wall thickness shall comply with the DIN 8077 and EN ISO 15874 specif ications.</p>
 
                                 
 
@@ -971,43 +1008,48 @@ Dedicated to supply products of the highest quality after having the approval of
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>Our Happy <span>Clients</span></h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <h2>Our Valuable <span>Clients</span></h2>
+                        <p>We were hounered to work on the best projects, with a variety of customers who were always on top of our priorities.</p>
                     </div>
                 </div>
             </div>
 
             <!-- client carousel -->
-            <div class="owl-client">
+            <div class="owl-client" >
 
                 <!-- item 1 -->
-                <div class="item text-center">
-                    <img src="{{ asset('assets/img/clients/1.png') }}" alt="">
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner1.png') }}"  alt="">
                 </div>
 
                 <!-- item 2 -->
-                <div class="item text-center">
-                    <img src="{{ asset('assets/img/clients/2.png') }}" alt="">
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner2.jpg') }}" alt="">
                 </div>
 
                 <!-- item 3 -->
-                <div class="item text-center">
-                    <img src="{{ asset('assets/img/clients/3.png') }}" alt="">
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner3.png') }}"  alt="">
                 </div>
 
                 <!-- item 4 -->
-                <div class="item text-center">
-                    <img src="{{ asset('assets/img/clients/4.png') }}" alt="">
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner4.png') }}" height=140px alt="">
                 </div>
 
                 <!-- item 5 -->
-                <div class="item text-center">
-                    <img src="{{ asset('assets/img/clients/5.png') }}" alt="">
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner5.jpg') }}" height=140px alt="">
                 </div>
 
                 <!-- item 6 -->
-                <div class="item text-center">
-                    <img src="{{ asset('assets/img/clients/7.png') }}" alt="">
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner6.jpeg') }}" height=140px alt="">
+                </div>
+
+                <!-- item 6 -->
+                <div class="item text-center" style="height:180px">
+                    <img src="{{ asset('assets/img/clients/partner7.png') }}" height=140px alt="">
                 </div>
 
             </div>
@@ -1080,9 +1122,9 @@ Dedicated to supply products of the highest quality after having the approval of
             <img src="{{ asset('imgs/logo.png') }}" alt="">
             <p>Let us be your next partner</p>
             <ul class="social-links">
-                <li><a href="https://facebook.com/TagroCompany/"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/TagroEgypt"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://plus.google.com/u/0/109642517085020313026/posts"><i class="fa fa-google-plus"></i></a></li>
+                <li><a target="_blank" href="https://facebook.com/TagroCompany/"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/TagroEgypt"><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://plus.google.com/u/0/109642517085020313026/posts"><i class="fa fa-google-plus"></i></a></li>
          
             </ul>
         </div>
