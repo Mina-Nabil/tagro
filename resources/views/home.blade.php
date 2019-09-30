@@ -72,12 +72,12 @@
             <div class="tsocial">
                 <a href="mailto:info@tagro-egypt.com"><i class="fa fa-envelope"></i> </a>
             </div>  &nbsp info@tagro-egypt.com
-        </div> 
+        </div>
         <div class="tmail">
             <div class="tsocial">
                 <a href="tel:+20224151218"><i class="fa fa-phone"></i> </a> </div>&nbsp+2-02 24151218
-        </div>   
-         
+        </div>
+
             <div class="tsocial">
                 <a href="https://facebook.com/TagroCompany/" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://twitter.com/TagroEgypt" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -143,12 +143,12 @@
                     <div class="table">
                         <div class="table-cell">
                             <div class="intro-text">
-                                <img src="{{ asset('imgs/logo.png') }}" alt="">
+                                <img src="{{ asset('imgs/logo.png') }}" width="1000" alt="">
                                 <div class="title clearfix">
-                                    <h2>Aim for <br>the best &nbsp</h2>
-                                    <h1> Quality</h1>
+                                    <h2><strong>  &nbsp &nbsp  Import & Export</strong></h2>
+
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                                     <h2>Every Person <br> is a value to</h2>
                                     <h1>Us</h1>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                                     <h2>Our Success &nbsp<br> is based on </h2>
                                     <h1>Trust</h1>
                                 </div>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -221,10 +221,10 @@
                 <div class="col-md-12 text-center">
                     <div class="section-title">
                         <h2>About <span>Us</span></h2>
-                        <p>Tagro is a leading company in the Egyptian market, producing and importing thermoplastic piping systems. 
+                        <p>Tagro is a leading company in the Egyptian market, producing and importing thermoplastic piping systems.
 
-Having a wide distributors network in Egypt governorates. 
-In order to reach the targeted service level to her customers on this wide geographical network, Tagro offers Free Pipes Installation and Filtering Testing for any customer with the governorates . 
+Having a wide distributors network in Egypt governorates.
+In order to reach the targeted service level to her customers on this wide geographical network, Tagro offers Free Pipes Installation and Filtering Testing for any customer with the governorates .
 
 Dedicated to supply products of the highest quality after having the approval of the Egyptian authorities that the products helps to protect the environment and the human safety </p>
                     </div>
@@ -249,10 +249,17 @@ Dedicated to supply products of the highest quality after having the approval of
                             <li><strong class="listrong">Safest</strong> and <strong class="listrong">Highest Quality</strong> products approved by the Egyptian Authorities</li>
                             <li><strong class="listrong">Specialized</strong> in Plumbing, Heating and Sewage Areas</li>
                         </ul>
-                        
+
 
                     </div>
                 </div>
+
+                <div class="col-md-3" style="margin-top: 50px" align=center>
+                <a class="btn" target="_blank" href="{{ asset('assets/catalogue/sabqa.pdf') }}" >سابقه اعمالنا</a>
+              </div>
+                <div class="col-md-3" style="margin-top: 50px" align=center>
+                <a class="btn" target="_blank" href="{{ asset('assets/catalogue/gawda.pdf') }}" >شهادات جوده</a>
+              </div>
             </div>
 
         </div>
@@ -304,7 +311,7 @@ Dedicated to supply products of the highest quality after having the approval of
                         </div>
                     </div>
 
-                
+
                 </div>
 
             </div>
@@ -322,9 +329,9 @@ Dedicated to supply products of the highest quality after having the approval of
                 <div class="col-md-12 text-center">
                     <div class="section-title">
                         <h2>A Collection of our <span>Products</span></h2>
-                        <p>TAGRO PP-R pipes and fittings are manufactured from high quality, Polpropylene Random Co-polymer resins (PP-RType 3). 
-                        Its phiysical and chemical properties make TAGRO a versatile piping system in a wide range of applica- tions in different industries. 
-                        Its advantages over PP types 1 or 2 and other thermoplastic pipes in the potable water indus- tries are its high impact strength and 
+                        <p>TAGRO PP-R pipes and fittings are manufactured from high quality, Polpropylene Random Co-polymer resins (PP-RType 3).
+                        Its phiysical and chemical properties make TAGRO a versatile piping system in a wide range of applica- tions in different industries.
+                        Its advantages over PP types 1 or 2 and other thermoplastic pipes in the potable water indus- tries are its high impact strength and
                         resistance to high temperatures.</p>
                 <a class="btn" target="_blank" href="{{ asset('assets/catalogue/Catalog.pdf') }}" >Check Our Full Catalogue</a>
                     </div>
@@ -546,74 +553,6 @@ Dedicated to supply products of the highest quality after having the approval of
     <section id="team" class="team-area section-big">
         <div class="container">
 
-
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-title">
-                        <h2>Meet the Team behind <span>Tagro</span></h2>
-                        <p>Dedicated to the Highest Quality</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-member">
-                        <div class="member-image">
-                            <img src="{{ asset('assets/img/team/mm.png') }}" alt="">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="subtitle">Amgad Selim</h3>
-                            <p class="text-muted">Marketing Manager</p>
-                           
-                        </div>
-                        <div class="member-hover">
-                            <h3 class="subtitle">Amgad Selim</h3>
-                            <p class="text-muted">Marketing Manager</p>
-                          
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-member">
-                        <div class="member-image">
-                            <img src="{{ asset('assets/img/team/ceo.png') }}" alt="">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="subtitle">Rezk Allah Mikhael</h3>
-                            <p class="text-muted">Tagro CEO</p>
-                          
-                        </div>
-                        <div class="member-hover">
-                            <h3 class="subtitle">Rezk Allah Mikhael</h3>
-                            <p class="text-muted">Tagro CEO</p>
-                         
-                        </div>
-                    </div>
-                </div>
-                <div clas  s="col-md-4 col-sm-6">
-                    <div class="team-member">
-                        <div class="member-image">
-                            <img src="{{ asset('assets/img/team/csm.png') }}" alt="">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="subtitle">Harby Saeed</h3>
-                            <p class="text-muted">Customer Support Manager</p>
-                         
-                        </div>
-                        <div class="member-hover">
-                            <h3 class="subtitle">Harby Saeed</h3>
-                            <p class="text-muted">Custome Support Manager</p>
-                          
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
         </div>
     </section>
     <!-- Team area ends -->
@@ -657,10 +596,10 @@ Dedicated to supply products of the highest quality after having the approval of
     <!-- fun-facts area ends -->
 
 
-         
 
 
-    
+
+
 
     <!-- News area starts -->
     <section id="news" class="news-area section-big">
@@ -670,7 +609,7 @@ Dedicated to supply products of the highest quality after having the approval of
                 <div class="col-md-12">
                     <div class="section-title text-center">
                         <h2>Keeping Our <span>Quality</span></h2>
-                        <p>TAGRO pipes and fittings are periodically subjected to the following 
+                        <p>TAGRO pipes and fittings are periodically subjected to the following
                         extensive test program according to the standards</p>
                     </div>
                 </div>
@@ -690,13 +629,13 @@ Dedicated to supply products of the highest quality after having the approval of
                             <a href="#news-modal-1" data-toggle="modal">
                                 <h3 class="subtitle">Material Characterization Tests</h3>
                             </a>
-                         
+
                             <p>
-                            Testing the incoming resin is the first step in the quality control program. 
-                            
+                            Testing the incoming resin is the first step in the quality control program.
+
                             </p>
                             <a class="btn" href="#news-modal-1" data-toggle="modal">Read More</a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -713,12 +652,12 @@ Dedicated to supply products of the highest quality after having the approval of
                             <a href="#news-modal-2" data-toggle="modal">
                                 <h3 class="subtitle">Thermal Reversion Properties</h3>
                             </a>
-                         
-                            <p>Thermal properties of plastic materials are equally important as mechanical properties. 
+
+                            <p>Thermal properties of plastic materials are equally important as mechanical properties.
                              </p>
                             <a class="btn" href="#news-modal-2" data-toggle="modal">Read More</a>
-                            
-                            
+
+
                         </div>
                     </div>
                 </div>
@@ -735,10 +674,10 @@ Dedicated to supply products of the highest quality after having the approval of
                             <a href="#news-modal-3" data-toggle="modal">
                                 <h3 class="subtitle">Thermocycling Test</h3>
                             </a>
-                         
+
                             <p>Thermocycling Testing determines the ability of parts to resist extremely low and extremely high temperatures. as well as their ability to withstand cyclical exposures to these temperature extremes.</p>
                             <a class="btn" href="#news-modal-3" data-toggle="modal">Read More</a>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -755,7 +694,7 @@ Dedicated to supply products of the highest quality after having the approval of
                             <a href="#news-modal-5" data-toggle="modal">
                                 <h3 class="subtitle">Dimensional Tests</h3>
                             </a>
-                         
+
                             <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements.</p>
                             <a class="btn" href="#news-modal-4" data-toggle="modal">Read More</a>
                         </div>
@@ -774,7 +713,7 @@ Dedicated to supply products of the highest quality after having the approval of
                             <a href="#news-modal-5" data-toggle="modal">
                                 <h3 class="subtitle">Creep Strength Test</h3>
                             </a>
-                         
+
                             <p>TAGRO Pipes are subjected to creep tests according to DIN 8078 that determins service life and that provides the required information about the mechanical characteristics of the pipe.</p>
                             <a class="btn" href="#news-modal-5" data-toggle="modal">Read More</a>
                             <br>
@@ -794,7 +733,7 @@ Dedicated to supply products of the highest quality after having the approval of
                             <a href="#news-modal-3" data-toggle="modal">
                                 <h3 class="subtitle">Impact Strength</h3>
                             </a>
-                         
+
                             <p>Impact resistance is the ability of a material to resist breaking under a shock loading. Standard test specimens prepared from TAGRO pipes are subjected to a pendulum type impact type load in accordance with DIN 8078 and EN ISO 15874.</p>
                             <a class="btn" href="#news-modal-6" data-toggle="modal">Read More</a>
                         </div>
@@ -821,12 +760,12 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <img src="{{asset('assets/img/quality/Mat_char.jpg')}}" alt="" >
 
-                             
+
 
                                     <h2>Material Characterization Test</h2>
 
-                                    <p> Testing the incoming resin is the first step in the quality control program. 
-                            It is usually checked for contamination, melt index, density, 
+                                    <p> Testing the incoming resin is the first step in the quality control program.
+                            It is usually checked for contamination, melt index, density,
                             DSC and 0IT Any resin that does not meet the raw material specifications is not used for the production.</p>
 
 
@@ -854,15 +793,15 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <img src="{{asset('assets/img/quality/Thermal_Reservation.jpg')}}" alt="" >
 
-                                 
+
 
                                     <h2>Thermal Reversion Properties</h2>
 
-                                    <p>Thermal properties of plastic materials are equa lly important as mechanical 
-                                    properties. Unlike metals, plastics are extremely sensitive to changes in temperature. 
-                                    This difference in the coefficient of thermal expansion develops internal stresses and 
-                                    stres concentrations in the polymer. 
-                                    Pipes are subjected to thermal stresses inside a thermostatic chamber with a continuous 
+                                    <p>Thermal properties of plastic materials are equa lly important as mechanical
+                                    properties. Unlike metals, plastics are extremely sensitive to changes in temperature.
+                                    This difference in the coefficient of thermal expansion develops internal stresses and
+                                    stres concentrations in the polymer.
+                                    Pipes are subjected to thermal stresses inside a thermostatic chamber with a continuous
                                     air circulation to observe shrinkage in accordance with DIN 8078, EN ISO 15874.</p>
 
 
@@ -894,7 +833,7 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <p>Thermocycling Testing determines the ability of parts to resist extremely low and extremely high temperatures. as well as their ability to withstand cyclical exposures to these temperature extremes. </p>
 
-                                
+
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
@@ -922,10 +861,10 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <h2>Dimensional Tests</h2>
 
-                                    <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements. 
+                                    <p>Pipe diameter, wall thickness, ovality and lenght of pipe are measured on a regular basis to insure compliance with standart requirements.
                                     The outside diameter wall thickness shall comply with the DIN 8077 and EN ISO 15874 specif ications.</p>
 
-                                
+
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
@@ -955,7 +894,7 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <p>TAGRO Pipes are subjected to creep tests according to DIN 8078 that determins service life and that provides the required information about the mechanical characteristics of the pipe. The long-term burst strength of pipes is determined by subjecting the pipes to constant internal pressure and observing time to failure. </p>
 
-                                
+
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
@@ -985,7 +924,7 @@ Dedicated to supply products of the highest quality after having the approval of
 
                                     <p>Impact resistance is the ability of a material to resist breaking under a shock loading. Standard test specimens prepared from TAGRO pipes are subjected to a pendulum type impact type load in accordance with DIN 8078 and EN ISO 15874. </p>
 
-                                
+
 
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
@@ -1060,7 +999,7 @@ Dedicated to supply products of the highest quality after having the approval of
     <!-- Client area ends -->
 
 
-    
+
 
     <!-- Contact area starts -->
     <section id="contact" class="contact-area section-big">
@@ -1125,7 +1064,7 @@ Dedicated to supply products of the highest quality after having the approval of
                 <li><a target="_blank" href="https://facebook.com/TagroCompany/"><i class="fa fa-facebook"></i></a></li>
                 <li><a target="_blank" href="https://twitter.com/TagroEgypt"><i class="fa fa-twitter"></i></a></li>
                 <li><a target="_blank" href="https://plus.google.com/u/0/109642517085020313026/posts"><i class="fa fa-google-plus"></i></a></li>
-         
+
             </ul>
         </div>
     </footer>
